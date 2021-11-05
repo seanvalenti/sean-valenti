@@ -1,0 +1,63 @@
+body{
+	font-family: courier, monospace;
+	background-color: black;
+	color: ghostwhite;
+}
+
+h1{
+	color: whitesmoke;
+	font-size: 50PX;
+	letter-spacing: 10px;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.profile-image{
+	height: 15rem;
+	width: 15rem;
+	border-radius: 7.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	background-image: url('profile_picture.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.box{
+	background-color: #383838;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-radius: 0.4rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.socials{
+	list-style-type: none;
+  padding: 0;
+  margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.socials li{
+	display: inline;
+}
+
+.social-logo{
+	height: 25px;
+	width: 25px;
+}
